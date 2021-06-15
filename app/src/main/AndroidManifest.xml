@@ -9,11 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Aplikasi2">
+        <activity android:name=".implicit_intent"></activity>
+        <activity android:name=".recycler" />
         <activity android:name=".Main2" />
         <activity android:name=".MainActivity" />
         <activity android:name=".Main3" />
         <activity android:name=".FormActivity" />
-        <activity android:name=".recycler">
+        <activity android:name=".implicit_2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

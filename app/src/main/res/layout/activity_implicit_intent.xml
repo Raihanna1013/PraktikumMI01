@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".implicit_intent"
+    android:background="@color/white"
+    android:orientation="vertical">
+<!--Edit text-->
+    <EditText
+        android:id="@+id/etNo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter phone no"
+        android:textColor="@color/white"
+        android:inputType="phone"
+        />
+
+<!--    Button Contact-->
+    <Button
+        android:id="@+id/btnKontak"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Kontak"
+        android:textColor="@android:color/holo_orange_light" />
+
+    <!--    Button Galery-->
+
+    <Button
+        android:id="@+id/btnGaleri"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Galeri"
+        android:textColor="@android:color/holo_orange_light" />
+
+    <!--    Browser -->
+    <Button
+        android:id="@+id/btnBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:text="Browser"/>
+<!--    phone-->
+    <Button
+        android:id="@+id/btnPhone"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:text="Phone"/>
+<!--    Webtoon-->
+    <Button
+        android:id="@+id/btnFolder"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:text="Folder"/>
+</LinearLayout>
